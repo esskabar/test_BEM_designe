@@ -1,0 +1,30 @@
+.webui-popover {
+  border: 1px solid $white;
+  border-radius: 3px;
+  background-color: $white;
+  box-shadow: 0 0 25px 0 #bdc4c9;
+}
+.webui-popover .webui-popover-content {
+  padding: 18px 20px;
+}
+.webui-popover.top > .webui-arrow,
+.webui-popover.top-right > .webui-arrow,
+.webui-popover.top-left > .webui-arrow {
+
+}
+.webui-popover.right > .webui-arrow,
+.webui-popover.right-top > .webui-arrow,
+.webui-popover.right-bottom > .webui-arrow {
+  border-right-color: rgb(255, 255, 255);
+}
+.webui-popover.bottom > .webui-arrow,
+.webui-popover.bottom-right > .webui-arrow,
+.webui-popover.bottom-left > .webui-arrow {
+
+}
+
+.webui-popover.left > .webui-arrow,
+.webui-popover.left-top > .webui-arrow,
+.webui-popover.left-bottom > .webui-arrow {
+
+}

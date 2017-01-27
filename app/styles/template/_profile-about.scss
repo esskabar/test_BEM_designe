@@ -1,0 +1,226 @@
+.profile-additional-block {
+  background-color: $white;
+  margin-left: -$grid-gutter-width / 2;
+  margin-right: -$grid-gutter-width / 2;
+  position: relative;
+  padding: 27px 24px;
+  margin-bottom: 25px;
+  @media (min-width: $screen-sm-min) {
+    min-height: 600px;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: 0px 1px 6px 0 rgba(114, 126, 136, 0.28);
+    margin-bottom: 25px;
+  }
+}
+
+.profile-about {
+
+  @media (min-width: $screen-sm-min) {
+
+  }
+}
+
+.profile-about_editing {
+  display: none;
+}
+
+
+.profile-header {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-header__txt {
+  @include profile-head-mob;
+  margin: 0 0 26px 0;
+  line-height: 1.4;
+  @media (min-width: $screen-sm-min) {
+    font-size: 18px;
+  }
+}
+
+.profile-edit {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-edit_desktop {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 23px;
+  @media (max-width: $screen-xs-max) {
+    display: none;
+  }
+}
+.profile-edit_mob {
+  position: absolute;
+  top: 27px;
+  right: 24px;
+  @media (min-width: $screen-sm-min) {
+    display: none;
+  }
+}
+.profile-edit__btn {
+  position: relative;
+  width: 30px;
+  height: 25px;
+  background-color: $profile-edit-btn;
+  cursor: pointer;
+  &:hover, &:focus {
+    background-color: $login-terms-link;
+    .ion-edit {
+      color: $white;
+    }
+  }
+  @media (min-width: $screen-sm-min) {
+    width: 43px;
+    height: 37px;
+  }
+}
+.ion-edit {
+  position: absolute;
+  top: 2px;
+  right: 8px;
+  font-size: 16px;
+  color: $profile-head-mob;
+  @media (min-width: $screen-sm-min) {
+    top: 8px;
+    right: 14px;
+    font-size: 18px;
+  }
+}
+
+.profile-edit-name {
+  margin: 0 0 29px 0;
+  @media (min-width: $screen-sm-min) {
+    display: inline-block;
+    padding-left: 5px;
+    background-color: $login-button;
+    margin-bottom: 2px;
+  }
+}
+.profile-edit__txt {
+  @include profile-content-name;
+  margin: 0 0 17px 0;
+  @media (min-width: $screen-sm-min) {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+  }
+}
+.profile-edit__first-name {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-edit__last-name {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-edit__category {
+  margin: 0;
+  @include profile-link;
+  color: $profile-head-mob;
+  @media (min-width: $screen-sm-min) {
+    display: none;
+  }
+}
+
+
+.profile-edit-meta {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-edit-meta__pict {
+vertical-align: middle;
+  margin-right: 10px;
+  font-size: 18px;
+  color: $login-terms-text;
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-edit-meta__txt {
+  @include profile-link;
+  vertical-align: middle;
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-edit-meta__common {
+  position: relative;
+  margin: 0 0 17px 0;
+  @media (min-width: $screen-sm-min) {
+    display: table;
+    background-color: $login-button;
+    padding-left: 5px;
+    margin-bottom: 2px;
+  }
+}
+.profile-edit-meta__site {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-edit-meta__tel {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-edit-meta__address {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+
+.profile-edit-meta {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-edit-meta {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-edit-meta {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+.popover-edit {
+  display: none;
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+.popover-edit__form-input {
+  &:first-of-type {
+    margin-top: 15px;
+  }
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+.popover-edit__input {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+.popover-edit__buttons {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+.popover-edit__button-cancel {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+.popover-edit__button-save {
+  margin-right: 20px;
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+
+.profile-about-edit-btn {
+  position: absolute;
+  top: 32px;
+  right: 30px;
+}
+.profile-about-edit-btn_save-mob {
+  margin-left: 34px;
+}

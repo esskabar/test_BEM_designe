@@ -1,0 +1,46 @@
+$icon-font-path: '../fonts/';
+
+// Before Bootstrap
+@import "assets/colors";
+@import "assets/fonts";
+@import "variables/custom_variables";
+@import "variables/typography";
+@import "variables/navbar";
+@import "variables/variables";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+@import "bower_components/Ionicons/scss/ionicons.scss";
+@import "sass-material/bootstrap-material-design";
+@import "sass-material/ripples";
+
+// Bootstrap modifications
+
+
+// Custom CSS
+
+@import "template/inputs";
+@import "template/btn";
+@import "template/login";
+@import "template/profile-header";
+@import "template/profile-about";
+@import "template/profile-settings";
+@import "template/custom_popover";
+
+
+body, html {
+  height:100%;
+}
+//.container {
+//  border: 1px solid red;
+//}
+//.row {
+//  border: 1px solid green;
+//}
+//
+//[class^="col-"] {
+//  border: 1px solid black;
+//}
+
+

@@ -1,0 +1,46 @@
+.profile-settings {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+.profile-change-pass {
+  @media (min-width: $screen-sm-min) {
+    margin-bottom: 15px;
+    max-width: 240px;
+  }
+}
+.profile-change-pass__input {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-change-pass__password {
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+.profile-change-pass-btn {
+  position: absolute;
+  top: 32px;
+  right: 30px;
+  @media (min-width: $screen-sm-min) {
+    display: none;
+  }
+}
+.profile-change-pass-btn_save-mob {
+  margin-left: 34px;
+  font-size: 14px;
+  @media (min-width: $screen-sm-min) {
+  }
+}
+.profile-change-pass-btn_cancel-mob {
+  font-size: 14px;
+  @media (min-width: $screen-sm-min) {
+  }
+}
+
+.profile-change-pass-btn-save_desktop {
+  display: none;
+  @media (min-width: $screen-sm-min) {
+    display: inline-block;
+  }
+}
